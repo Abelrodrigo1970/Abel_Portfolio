@@ -8,7 +8,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Abel_Portfolio">
       <div className="min-h-screen bg-gray-900 text-gray-100">
         <Header />
         <main className="pt-16">
