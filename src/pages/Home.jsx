@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import { Github, Linkedin, Mail, ArrowRight, Download, Eye } from 'lucide-react'
+import abelImage from '../assets/abel.JPG'
 
 const Home = () => {
   return (
@@ -77,7 +78,7 @@ const Home = () => {
                 <div className="w-80 h-80 bg-gradient-to-br from-primary-500 to-accent-500 rounded-full p-1">
                   <div className="w-full h-full bg-gray-800 rounded-full flex items-center justify-center overflow-hidden">
                     <img
-                      src={`${import.meta.env.BASE_URL}abel.JPG`}
+                      src={abelImage}
                       alt="Abel Oliveira"
                       className="w-72 h-72 rounded-full object-cover"
                     />

@@ -1,4 +1,6 @@
+import React from 'react';
 import { Download, Calendar, MapPin, Award, Briefcase, Code, Languages, Heart } from 'lucide-react'
+import cvPdf from '../assets/CV-Abel.pdf'
 
 const About = () => {
   const education = [
@@ -114,12 +116,12 @@ const About = () => {
           {/* Download CV Button */}
           <div className="pt-4">
             <a
-              href={`${import.meta.env.BASE_URL}CV-Abel.pdf`}
-              download
+              href={cvPdf}
+              download="CV-Abel-Oliveira.pdf"
               className="btn-primary inline-flex items-center"
             >
               <Download size={20} className="mr-2" />
-              Download CV (PDF)
+              Download CV
             </a>
           </div>
         </div>
