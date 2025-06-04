@@ -91,7 +91,7 @@ const About = () => {
 
   const languages = [
     { name: "Portuguese", level: "Native" },
-    { name: "English", level: "Fluent" }
+    { name: "English", level: "Intermediate" }
   ]
 
   const hobbies = [
@@ -113,10 +113,14 @@ const About = () => {
           
           {/* Download CV Button */}
           <div className="pt-4">
-            <button className="btn-primary inline-flex items-center">
+            <a
+              href={`${import.meta.env.BASE_URL}CV-Abel.pdf`}
+              download
+              className="btn-primary inline-flex items-center"
+            >
               <Download size={20} className="mr-2" />
               Download CV (PDF)
-            </button>
+            </a>
           </div>
         </div>
 
