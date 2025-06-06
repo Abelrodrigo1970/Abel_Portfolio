@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { ExternalLink, Github, Play, Filter, Search } from 'lucide-react'
+import talhoSite from '../assets/talho_site.png'
+import fabioSite from '../assets/fabio_site.png'
 
 const Projects = () => {
   const [filter, setFilter] = useState('all')
@@ -21,7 +23,7 @@ const Projects = () => {
       id: 2,
       title: "Talho Nascente",
       description: "Professional website for Talho Nascente with product catalog, online ordering system and order management.",
-      image: "/api/placeholder/600/400",
+      image: talhoSite,
       tags: ["JavaScript", "React", "Node.js", "MongoDB", "Express"],
       category: "Fullstack",
       demoUrl: "https://talhonascente.pt",
@@ -32,7 +34,7 @@ const Projects = () => {
       id: 3,
       title: "Fabio Events",
       description: "Website for events company with photo gallery, contact form and event management.",
-      image: "/api/placeholder/600/400",
+      image: fabioSite,
       tags: ["JavaScript", "HTML5", "CSS3", "Responsive Design"],
       category: "Frontend",
       demoUrl: "https://abelrodrigo1970.github.io/fabio-events/",
