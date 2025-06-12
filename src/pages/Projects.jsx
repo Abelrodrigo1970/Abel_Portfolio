@@ -3,7 +3,7 @@ import { ExternalLink, Github, Play, Filter, Search } from 'lucide-react'
 import talhoSite from '../assets/talho_site.png'
 import fabioSite from '../assets/fabio_site.png'
 import eleicoesSite from '../assets/eleicoes_site.png'
-import talhoApexSite from '../assets/talho_apex_site.png'
+import talhoApexSite from '../assets/talho_apex.png'
 
 const Projects = () => {
   const [filter, setFilter] = useState('all')
