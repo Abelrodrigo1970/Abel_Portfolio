@@ -15,7 +15,7 @@ const Projects = () => {
       image: "/api/placeholder/600/400",
       tags: ["React", "Node.js", "PostgreSQL", "Stripe", "Docker"],
       category: "Fullstack",
-      demoUrl: "https://talho-demo.abeloliveira.dev",
+      demoUrl: "https://g172cab7e0ec33a-nascentedb01.adb.eu-madrid-1.oraclecloudapps.com/ords/r/nascente/site/login?session=314224559415809",
       codeUrl: "https://github.com/abeloliveira/talho-online",
       featured: true
     },
@@ -48,7 +48,7 @@ const Projects = () => {
       image: "/api/placeholder/600/400",
       tags: ["JavaScript", "Chart.js", "Bootstrap", "Data Visualization"],
       category: "Frontend",
-      demoUrl: "https://simulador-eleicoes.vercel.app",
+      demoUrl: "https://abelrodrigo1970.github.io/Simulador-Resultados-Eleitorais/",
       codeUrl: "https://github.com/abelrodrigo1970/Simulador-Resultados-Eleitorais",
       featured: true
     },
