@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { ExternalLink, Github, Play, Filter, Search } from 'lucide-react'
 import talhoSite from '../assets/talho_site.png'
 import fabioSite from '../assets/fabio_site.png'
-import fabioSite from '../assets/eleicoes_site.png'
+import eleicoesSite from '../assets/eleicoes_site.png'
 
 const Projects = () => {
   const [filter, setFilter] = useState('all')
@@ -46,7 +46,7 @@ const Projects = () => {
       id: 4,
       title: "Electoral Results Simulator",
       description: "Web application for simulation and analysis of electoral results with interactive visualizations and dynamic charts.",
-      image: eleicoes_site,
+      image: eleicoesSite,
       tags: ["JavaScript", "Chart.js", "Bootstrap", "Data Visualization"],
       category: "Frontend",
       demoUrl: "https://abelrodrigo1970.github.io/Simulador-Resultados-Eleitorais/",
