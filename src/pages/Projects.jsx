@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { ExternalLink, Github, Play, Filter, Search } from 'lucide-react'
 import talhoSite from '../assets/talho_site.png'
 import fabioSite from '../assets/fabio_site.png'
+import fabioSite from '../assets/eleicoes_site.png'
 
 const Projects = () => {
   const [filter, setFilter] = useState('all')
@@ -45,7 +46,7 @@ const Projects = () => {
       id: 4,
       title: "Electoral Results Simulator",
       description: "Web application for simulation and analysis of electoral results with interactive visualizations and dynamic charts.",
-      image: "/api/placeholder/600/400",
+      image: eleicoes_site,
       tags: ["JavaScript", "Chart.js", "Bootstrap", "Data Visualization"],
       category: "Frontend",
       demoUrl: "https://abelrodrigo1970.github.io/Simulador-Resultados-Eleitorais/",
@@ -59,7 +60,7 @@ const Projects = () => {
       image: "/api/placeholder/600/400",
       tags: ["TypeScript", "React", "Chart.js", "Binance API", "TailwindCSS"],
       category: "Frontend",
-      demoUrl: "https://crypto-backtest.vercel.app",
+      demoUrl: "https://abelrodrigo1970.github.io/crypto-backtest",
       codeUrl: "https://github.com/abelrodrigo1970/crypto-backtest",
       featured: true
     },

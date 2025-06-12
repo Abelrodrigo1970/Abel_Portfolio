@@ -140,12 +140,12 @@ const Home = () => {
 
             <Link to="/projects" className="card group cursor-pointer">
               <div className="w-full h-48 bg-gradient-to-br from-accent-600 to-accent-800 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-white text-lg font-semibold">Crypto Backtest</span>
+                <span className="text-white text-lg font-semibold">Election Results</span>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-2">Trading Algorithms</h3>
-              <p className="text-gray-400 mb-4">Application for backtesting cryptocurrency trading strategies.</p>
+              <h3 className="text-xl font-semibold text-white mb-2">Election Simulator</h3>
+              <p className="text-gray-400 mb-4">Interactive simulator for electoral results with real-time data visualization.</p>
               <div className="flex justify-between items-center">
-                <span className="text-primary-400 text-sm">TypeScript • React • Chart.js</span>
+                <span className="text-primary-400 text-sm">JavaScript • HTML • CSS</span>
                 <ArrowRight size={20} className="text-primary-400 group-hover:translate-x-1 transition-transform" />
               </div>
             </Link>
