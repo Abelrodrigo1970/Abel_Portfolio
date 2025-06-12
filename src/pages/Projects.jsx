@@ -3,6 +3,7 @@ import { ExternalLink, Github, Play, Filter, Search } from 'lucide-react'
 import talhoSite from '../assets/talho_site.png'
 import fabioSite from '../assets/fabio_site.png'
 import eleicoesSite from '../assets/eleicoes_site.png'
+import talhoApexSite from '../assets/talho_apex_site.png'
 
 const Projects = () => {
   const [filter, setFilter] = useState('all')
@@ -13,7 +14,7 @@ const Projects = () => {
       id: 1,
       title: "E-commerce Butcher Shop",
       description: "Complete e-commerce platform for butcher shop with inventory management, customer orders and clients. Includes advanced administrative panel and integrated payment system.",
-      image: "/api/placeholder/600/400",
+      image: talhoApexSite,
       tags: ["React", "Node.js", "PostgreSQL", "Stripe", "Docker"],
       category: "Fullstack",
       demoUrl: "https://g172cab7e0ec33a-nascentedb01.adb.eu-madrid-1.oraclecloudapps.com/ords/r/nascente/site/login?session=314224559415809",
